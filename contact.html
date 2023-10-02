@@ -13,75 +13,55 @@
 
     <nav>
         <ul type="disc">
-            <u><li>Accueil</li></u>
-            <u><li>Tableau</li></u>
-            <u><li>Contact</li></u>
-        <ul>
+            <li><a href="index.html">Accueil</a> </li>
+            <li><a href="tableau.html">Tableau</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 
     <section>
         <img src="img/promotion.jpg" alt="Promotion">
         <article>
-            <h1>Tableau</h1>
+            <h1>Contact</h1>
             <hr>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Photo</th>
-                        <th>ID</th>
-                        <th>Catégorie</th>
-                        <th>Libellé</th>
-                        <th>Prix</th>
-                        <th>Couleur</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><img src="img/7.jpg" alt=""></td>
-                        <td>7</td>
-                        <td>Barbecues</td>
-                        <td>Aramis<td>
-                        <td>110.00€<td>
-                        <td>Brun</td>
-                        </tr>
-        
-                    <tr>
-                        <td><img src="img/8.jpg" alt=""></td>
-                        <td>8</td>
-                        <td>Barbecues</td>
-                        <td>Athos</td>
-                        <td>249.49€<td>
-                        <td>Noir</td>
-                        </td>
-        
-                    <tr>
-                        <td><img src="img/11.jpg" alt=""></td>
-                        <td>11</td>
-                        <td>Barbecues</td>
-                        <td>Clatronic</td>
-                        <td>135.90€</td>
-                        <td>Chrome</td>
-                    </tr>
-        
-                    <tr>
-                        <td><img src="img/12.jpg" alt=""></td>
-                        <td>12</td>
-                        <td>Barbecues</td>
-                        <td>Camping</td>
-                        <td>88.00€</td>
-                        <td>Noir</td>
-                    </tr>
-        
-                    <tr>
-                        <td><img src="img/13.jpg" alt=""></td>
-                        <td>13</td>
-                        <td>Brouette</td>
-                        <td>Green</td>
-                        <td>49.00€</td>
-                        <td>Verte</td>
-                    </tr>
-                </tbody>
-        </table>
+            <p>*Ces zones sont obligatoires</p>
+            <form action="http://bienvu.net/script.php" method="post">
+                <fieldset>
+                    <p>*Ces zones sont obligatoires</p>
+                    <legend>Vos coordonnées</legend>
+                    <label for="nom">Votre nom* :</label><input type="text" name="nom" id="nom"><br>
+                    <label for="prenom">Votre prénom* :</label><input type="text" name="prenom" id="prenom" ><br>
+                    <br>
+                    sexe* : <input type="radio" name="sexe" value="Féminin">Féminin
+                        <input type="radio" name="sexe" value="Masculin">Masculin<br>
+                    <br>
+                    <label for="date">Date de naissance* :</label><input type="date" name="date" id="date"><br>
+                    <label for="cp">Code Postal* :</label><input type="text" name="cp" id="cp"><br>
+                    <label for="adresse">Adresse* :</label><input type="text" name="adresse" id="adresse"><br>
+                    <label for="ville">Ville* :</label><input type="text" name="ville" id="ville"><br>
+                    <label for="email">Email* :</label><input type="text" placeholder="dave.loper@afpa.fr" pattern="^[a-z]+$" title="dave.loper@afpa.fr" name=email id="email"><br>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Votre demande</legend>
+                    <label for="sujet">Sujet* :</label>
+                    <select id="sujet" >
+                        <option value=""selected>Veuillez sélectionner un sujet</option>
+                        <option value="commmandes">Mes commmandes</option>
+                        <option value="produit">Question sur un produit</option>
+                        <option value="Réclamation">Réclamation</option>
+                        <option value="Autres">Autres</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label for="Sujet">Votre question* :</label><input type="text" name="votre question" id="votre question"><br>
+                </fieldset>
+                    <br>
+                    <input type="checkbox" name="texte" value="* J'accepte le traitement informatique de ce formulaire"> * J'accepte le traitement informatique de ce formulaire<br>
+                    <br>
+                    <input type="submit" value="Envoyer">
+                    <input type="reset" value="Annuler">
+            </form>
         </article>
     </section>
 
@@ -91,9 +71,9 @@
 <hr>
     <footer>
         <ul type="disc">
-          <li>Mention légales</li>
-          <li>Horaires</li>
-          <li>Plan du site</li>
+            <li><a href="#">Mention légales</a></li>
+            <li><a href="#">Horaires</a></li>
+            <li><a href="#">Plan du site</a></li>
     </ul>
    
 
