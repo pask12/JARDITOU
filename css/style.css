@@ -1,0 +1,48 @@
+header img{
+    width: 10%; 
+ }
+ header {
+     display: flex;
+     
+ }
+ header p{
+     margin-left: 500px;
+     font-size: 20px;
+ }
+ ul{
+     display: flex;
+     gap: 1rem;
+     background-color: black;
+     padding: 1rem;
+     
+ }
+ li{
+ list-style-type: none;
+ 
+ }
+ a{
+     color: white;
+ }
+ nav img{
+    width: 100%; height: auto;
+}
+ aside{ width: 30%; height: auto;
+ background-color: grey;
+ border: 0.1rem solid black;
+ 
+ }
+     
+ section{ 
+    width: 70%; 
+    height: auto; 
+    
+}
+ div{display: flex; 
+        
+        }
+ table img{
+    width: 20%;
+
+ }
+ 
+
