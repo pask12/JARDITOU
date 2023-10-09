@@ -14,9 +14,9 @@
 
     <nav>
         <ul type="disc">
-            <li><a href="index.html">Accueil</a> </li>
-            <li><a href="tableau.html">Tableau</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="index.html" title="Accueil">Accueil</a> </li>
+            <li><a href="tableau.html" title="Tableau">Tableau</a></li>
+            <li><a href="contact.html" title="Contact">Contact</a></li>
         </ul>
         <img src="img/promotion.jpg" alt="Promotion">
     </nav>
@@ -34,8 +34,8 @@
                     <label for="nom">Votre nom* :</label><input type="text" name="nom" id="nom"><br>
                     <label for="prenom">Votre prénom* :</label><input type="text" name="prenom" id="prenom" ><br>
                     <br>
-                    sexe* : <input type="radio" name="sexe" value="Féminin">Féminin
-                        <input type="radio" name="sexe" value="Masculin">Masculin<br>
+                    <p>sexe* : </p><label for="sexef">féminin</label><input type="radio" name="sexef" value="Féminin">Féminin
+                        <label for="sexem">Masculin</label><input type="radio" name="sexem" value="Masculin">Masculin<br>
                     <br>
                     <label for="date">Date de naissance* :</label><input type="date" name="date" id="date"><br>
                     <label for="cp">Code Postal* :</label><input type="text" name="cp" id="cp"><br>
@@ -48,7 +48,7 @@
                     <legend>Votre demande</legend>
                     <label for="sujet">Sujet* :</label>
                     <select id="sujet" >
-                        <option value=""selected>Veuillez sélectionner un sujet</option>
+                        <option value=""selected disabled>Veuillez sélectionner un sujet</option>
                         <option value="commmandes">Mes commmandes</option>
                         <option value="produit">Question sur un produit</option>
                         <option value="Réclamation">Réclamation</option>
@@ -73,9 +73,9 @@
 <hr>
     <footer>
         <ul type="disc">
-            <li><a href="#">Mention légales</a></li>
-            <li><a href="#">Horaires</a></li>
-            <li><a href="#">Plan du site</a></li>
+            <li><a href="" title="Mention légales">Mention légales</a></li>
+            <li><a href="" title="Horaires">Horaires</a></li>
+            <li><a href="" title="Plan du site">Plan du site</a></li>
     </ul>
    
 
